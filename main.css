@@ -14,6 +14,11 @@
     padding: 0;
 }
 
+nav ul li img{
+    width: 70px;
+    border-radius: 100%;
+}
+
 main{
     max-width: 92vw;
     margin:  0 auto;
@@ -199,13 +204,14 @@ footer:hover{
 }
 
 @media (max-width:640px){
-    nav li{
+    /* nav li{
         display: none;
-    }
+    } */
 
     nav li:first-child,
     nav li:last-child{
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     header{
